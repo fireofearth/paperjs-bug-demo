@@ -2,8 +2,9 @@
 
 An [OpenSeadragon](http://openseadragon.github.io) plugin that adds Paper.js overlay capability.
 
-Compatible with OpenSeadragon 2.0.0 or greater. License: The BSD 3-Clause License.
-The software was forked from [OpenseadragonFabricjsOverlay](https://github.com/altert/OpenseadragonFabricjsOverlay), that also is licensed under the BSD 3-Clause License.
+Compatible with OpenSeadragon 2.0.0 or greater.
+
+License: The BSD 3-Clause License. The software was forked from [OpenseadragonFabricjsOverlay](https://github.com/altert/OpenseadragonFabricjsOverlay), that also is licensed under the BSD 3-Clause License.
 
 ## Introduction
 
@@ -34,7 +35,7 @@ Functionality for dragging Paper.js objects can be added by using OpenSeadragon.
     }).setTracking(true);
 `````
 
-togeter with these callbacks
+together with these callbacks
 
 `````javascript
 var hit_item = null;
@@ -64,7 +65,7 @@ var press_handler = function(event) {
 `````
 
 As a side-note: My first attempt to implement drag support failed.
-During that attempt I didn't use OpenSeadragon.MouseTracker but instead Paper.js own mouse event callbacks.
+During that attempt I didn't use OpenSeadragon.MouseTracker but instead the mouse event callbacks inside Paper.js.
 I noticed, though, that the onMouseUp callback was never called and the onMouseDrag callback was called at the wrong time.
 The failed approach looked something like this:
 
