@@ -85,4 +85,6 @@ circle.onMouseDrag = function(event) {
 }
 `````
 
-TODO... add a working demo.html for an example of it in use.
+TODO: Add an example web page that uses OpenSeadragonPaperjsOverlay.
+Note: The file package.json was modified to reflect the change from Fabric.js to Paper.js.
+But the file has not been tested.
