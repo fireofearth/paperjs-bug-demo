@@ -6,6 +6,10 @@ Compatible with OpenSeadragon 2.0.0 or greater.
 
 License: The BSD 3-Clause License. The software was forked from [OpenseadragonFabricjsOverlay](https://github.com/altert/OpenseadragonFabricjsOverlay), that also is licensed under the BSD 3-Clause License.
 
+##Demo web page
+
+http://eriksjolund.github.io/osd-spot-viewer/drag_circles.html
+
 ## Introduction
 
 To use, include the `openseadragon-paperjs-overlay.js` file after `openseadragon.js` on your web page.
@@ -85,6 +89,7 @@ circle.onMouseDrag = function(event) {
 }
 `````
 
-TODO: Add an example web page that uses OpenSeadragonPaperjsOverlay.
+
+
 Note: The file package.json was modified to reflect the change from Fabric.js to Paper.js.
 But the file has not been tested.
