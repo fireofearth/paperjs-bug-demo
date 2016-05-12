@@ -8,8 +8,8 @@ License: The BSD 3-Clause License. The software was forked from [OpenseadragonFa
 
 ##Demo web page
 
-See [online demo](http://eriksjolund.github.io/OpenSeadragonPaperjsOverlay/drag_circles.html)
-where some Paper.js circles are shown on top of a OpenSeadragon window. The circles can be dragged with the mouse.
+See the [online demo](http://eriksjolund.github.io/OpenSeadragonPaperjsOverlay/drag_circles.html)
+where some Paper.js circles are shown on top of an OpenSeadragon window. The circles can be dragged with the mouse.
 
 ## Introduction
 
