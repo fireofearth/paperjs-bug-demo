@@ -1,6 +1,6 @@
 # OpenSeadragonPaperjsOverlay
 
-An [OpenSeadragon](http://openseadragon.github.io) plugin that adds Paper.js overlay capability.
+An [OpenSeadragon](http://openseadragon.github.io) plugin that adds [Paper.js](http://paperjs.org) overlay capability.
 
 Compatible with OpenSeadragon 2.0.0 or greater.
 
