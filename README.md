@@ -1,3 +1,5 @@
+## Paper.js Bug Demo
+
 This repo is a demonstration of a bug I found while using Paper.js.
 It only appears in Windows and MacOS (Firefox and Chrome).
 
