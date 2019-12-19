@@ -1,7 +1,6 @@
 ## Paper.js Bug Demo
 
-This repo is a demonstration of a bug I found while using Paper.js.
-It only appears in Windows and MacOS (Firefox and Chrome).
+This repo is a demonstration of a bug I found while using Paper.js. It only appears in Windows and MacOS (Firefox and Chrome). Please view the demo by opening drag_circles.html on your browser.
 
 Please take a look at https://github.com/paperjs/paper.js/issues/1749
 
