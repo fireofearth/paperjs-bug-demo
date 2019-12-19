@@ -27,6 +27,7 @@
         var self = this;
 
         this._viewer = viewer;
+        this._osd_canvas = viewer.canvas.getElementsByTagName('canvas')[0];
 
         this._containerWidth = 0;
         this._containerHeight = 0;
@@ -92,6 +93,7 @@
                 paper.view.zoom = image1.viewportToImageZoom(viewportZoom);
                 var center = this._viewer.viewport.viewportToImageCoordinates(this._viewer.viewport.getCenter(true));
                 paper.view.center = new paper.Point(center.x, center.y);
+                paper.view.update();
        }
     };
 })();
